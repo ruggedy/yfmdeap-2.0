@@ -1,0 +1,283 @@
+/* Empty. Add your own CSS if you like */
+
+@font-face {
+  font-family: "custom-font";
+
+  src: url("TitilliumWeb-Light.ttf");
+}
+
+.custom-color, .tabs{
+  background-color: #003399 !important;
+}
+.progress {
+  background-color: #7998c6;
+  margin-top: .3em;
+  height: 1.2em;
+  position: relative;
+  i { line-height: 1.2em; }
+}
+.content-color{
+  background-color: #ECF0F1;
+}
+[type="radio"] {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px; margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.progress-bar {
+  transition: width 0.5s ease-in-out;
+}
+
+.progress-bar-success {
+  background-color:  #003399;
+}
+
+.no-bootstrap.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.progress span {
+    text-align: center;
+    font-size: 1.6em;
+    position: absolute;
+    display: block;
+    width: 100%;
+    color: #ECF0F1;
+    font-family: "custom-font", sans-serif;
+ }
+
+ .footer-bar-custom {
+    background: #003399;
+    color: #ECF0F1;
+    height: 44px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    z-index: 5
+    font-family: "custom-font", sans-serif;
+}
+.home, .home.button.button-icon {
+  color: white;
+  font-family: "custom-font", sans-serif;
+}
+
+.custom.button.button-clear {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
+  font-family: "custom-font", sans-serif;
+}
+
+.footer-bar-custom .item-left,
+.footer-bar-custom .item-center,
+.footer-bar-custom .item-right {
+    position: absolute;
+    width: 4em;
+}
+
+.footer-bar-custom .item-left { left:-1em }
+
+.footer-bar-custom .item-center {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+}
+
+.footer-bar-custom .item-right { right: -1em }
+
+.question-container{
+  height: 20em;
+  width: 100%;
+
+}
+.questions{
+  padding-top: 2em;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  color: #003399;
+  font-family: "custom-font", sans-serif;
+}
+
+.radio-large.radio-label{
+  width: 4em;
+  border-radius: 1em;
+  height: 3em;
+  top: .4em;
+}
+.radio-medium.radio-label{
+  width: 3em;
+  border-radius: .8em;
+  height: 2.5em;
+  top: .6em;
+}
+
+.radio-label {
+  background-color: #ECF0F1;
+  border-radius: 4em;
+  border: 0.2em solid #00237a;
+  display: inline-block;
+  width: 1.8em;
+  height: 1.8em;
+  top: 1em;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
+}
+
+.radio-label.button {
+  min-height: 1em;
+  min-width: 1em;
+  max-width: 5em;
+  max-height: 5em;
+}
+
+.radio-label:active {
+  background-color: #00237a;
+}
+
+.checked {
+  transition: .6s;
+  background-color: #00237a !important;
+}
+.notChecked {
+  transition: .6s
+  background-color: #ECF0F1 !important;
+}
+
+.custom-avatar.item{
+  color: #00237a;
+  font-family: "custom-font", sans-serif;
+}
+.custom-avatar img:first-child{
+  position: absolute;
+  max-width: 5em;
+  max-height: 5em;
+  top: -0.8em;
+  left: .5em;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+}
+
+.custom-avatar i {
+  position: relative;
+  top: -0.4em;
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #7998c6;
+}
+
+.custom-avatar span{
+  position: relative;
+  top: -0.6em;
+  left: 0.7em;
+  font-size: 1.5em;
+}
+
+.card-heigth {
+  height: 3em;
+}
+
+.header-text-align {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #F4B350;
+  font-family: "custom-font", sans-serif;
+}
+
+.header-height.item{
+  background-color: #7998c6;
+}
+.header-height.item-divider{
+  max-height: 1.8em;
+}
+.result-content-body.item, .card {
+  background-color: #ECF0F1;
+}
+.result-big-image-avatar img {
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  padding-left: 5em;
+  padding-right: 5em;
+  top: 2em;
+}
+.result-message-css {
+  position: relative;
+  top: 13em;
+  font-size: 1.5em;
+  font-weight: bolder;
+  font-family: "custom-font", sans-serif;
+  color: #00237a;
+}
+.custom-nav-title {
+  margin-left: 4.3em;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-align: center !important;
+  color: white;
+}
+.home-margin-top{
+  margin-top: 20em;
+}
+.button-font{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.button-font, .button {
+  max-height: 1.5em;
+  padding: 0 .2em;
+}
+.overflow-hidden, .overflow-scroll {
+  overflow: hidden;
+}
+
+.container {
+  width:100%;
+  height: 40em;
+  padding-left: 0;
+  padding-right: 0;
+  position:relative;
+  overflow:hidden;
+  background-color: #ECF0F1;
+}
+.container.cell{
+  left: -1em;
+  text-align: center;
+}
+.swap-animation.ng-enter, .swap-animation.ng-leave {
+  transition:4s linear all;
+}
+.swap-animation.ng-enter {
+  left: 100%;
+}
+.swap-animation.ng-enter-active {
+  left: 0;
+}
+.swap-animation.ng-leave {
+  left: 0;
+}
+.swap-animation.ng-leave-active {
+  left: -200%;
+}
+
+.slideOutLeft{
+  animation-duration: 1;
+}
+.slideInRight{
+  
+}

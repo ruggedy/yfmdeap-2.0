@@ -1,0 +1,52 @@
+{
+	"extraversion": [{
+		"id": 1,
+		"fullMsg": "Introverted individuals prefer to remain isolated or in the company of very few people. \n Introverts are more prone to thinking, and are thus involved in creating novel entities.\n They can survive, unlike extroverts, without any interest in the surrounding world.\n Tending to be more formal, idealistic, and contemplative about the future.\n  Avoiding large group activities and situations, they remain passive and avoid being in the centre stage, or recognition of any kind.\n They are shy and inscrutable and may appear to be lacking in enthusiasm to others."
+	}, {
+		"id": 2,
+		"fullMsg": "Extroverts are typically social, practical, affectionate and informal.\n While they are good conversationalists are active and lively.\n  Habitually outgoing they venture forth with confidence into the unknown. Tending to be essentially social by participating in various social and personal activities.\n They appear full of energy and involve themselves in a variety of pursuits and are generally good leaders of groups of all sizes.\n These individuals adapt easily to a given situation and are particularly influenced by the objects and events around them."
+	}, {
+		"id": 3,
+		"fullMsg": "A balanced extraversion profile typically shows a person likely to have a variation in the way that they approach their work.\n They want to be able to focus on their work at times but not to the point that they are isolated from others, preferring medium sized social groups which maybe fluctuate in who they involve.\n A balanced extraversion person is able to make good conversation with a variety of people without feeling outside of their comfort zone"
+	}],
+	"openness": [{
+		"id": 1,
+		"fullMsg": "Analytical persons are often reserved and are generally quiet persons who like to get to the bottom of things with their curiosity being one of their strongest motivations. \n Equipped with their sharp assessment skills they are able to  quickly and comprehensively grasp patterns, principles and structures. \n Preferring to work alone, they have a far greater capacity to concentrate and focus, than any of the other personality types."
+	}, {
+		"id": 2,
+		"fullMsg": "Someone extremely open is often a creative type of person. \n They are most likely to be open to changing how to approach things, how to act or react to new circumstances and how to look into an idea; with a mind that likes to asks questions, experiment and take chances. \n They are genuinely viewed as intelligent and cognitive, with a value on their own independence while behaving in an ethically consistent manner."
+	}, {
+		"id": 3,
+		"fullMsg": "A person with balanced openness shows a flexible mind, they have their habits established but they don’t object to them being challenged and are happy to think about approaching them in new ways. \n A balanced openness person is likely happy to try out different ideas but won’t be looking to improvise all the time as sometimes the tried and tested method is the right way."
+	}],
+	"agreeableness": [{
+		"id": 1,
+		"fullMsg": "A person who is a cooperator tends to be more feeling-oriented and passive, as they wish to please others.\n Cooperators are generally less concerned with time,  tasks and productivity and instead care more about people's feelings and listening. \n While they may be great at building relationships, cooperators also tend to take fewer risks and be indecisive."
+	}, {
+		"id": 2,
+		"fullMsg": "A person who is a competitor will have a strong desire to be more successful than others. \n Having competitive attitudes helps one to feel energized and believe they are able to take on a challenging task. \nHowever they tend to be generally unconcerned about other people's wellbeing and \n sometime suspect others people motives which can cause a competitor to become suspicious, unfriendly and uncooperative."
+	}, {
+		"id": 3,
+		"fullMsg": "A balanced score on agreeableness shows a person not set in their ways, who can adapt to different situations with both the winning mindset in any situation they are in, and the ability to cooperate if it can help them to achieve their target. \nIn a team situation, they are happy to follow the decision of the team members but if there’s an opportunity to take the lead and be in charge, they are not afraid of making the decisions."
+	}],
+	"conscientiousness": [{
+		"id": 1,
+		"fullMsg": "Planners are more organized and thorough, they know how to make plans and follow them through.  \nBeing able to identify goals or objectives and subsequently formulate strategies to achieve them. \nPlanners like to live according to routine and schedules and are ideal for jobs which follow strict procedures."
+	}, {
+		"id": 2,
+		"fullMsg": "Improvisors tend to thrive in an environment with the freedom to act without hindrance to have the biggest impact. \nBeing gifted at employing the available means to accomplish an end. \nTheir creativity is revealed by the variety of solutions they come up with and how quickly they adapt to using new tools, whether the tool be language, theories, a paintbrush, or a computer."
+	}, {
+		"id": 3,
+		"fullMsg": "A person with a balanced Conscientiousness profile is a sign of an effective individual.  \nTypically they have a plan and are able to follow through on it, but if it doesn’t come through they are able to adapt and make bold moves to deal with the unexpected situation.  \nA balanced Conscientiousness person appreciates having results of the highest quality and set high expectations of themselves even though sometimes it is not possible to achieve, it does not discourage their performance."
+	}],
+	"neuroticism": [{
+		"id": 1,
+		"fullMsg": "Individuals who score low in neuroticism are less emotionally reactive and are less easily upset. \nThey tend to be more emotionally  stable and secure and do not constantly experience negative emotions while being more relaxed in their decision making. \nThis can however make a person appear to be disengaged and unenthusiastic."
+	}, {
+		"id": 2,
+		"fullMsg": "Persons who are high in neuroticism tend toward emotional reactivity. \nThey will respond emotionally to events that would not affect most people. \nA higher score can mean a greater chance of feeling threatened or minor frustrations to be a hopelessly difficult. \nThese problems in emotional regulation can make it difficult to think clearly, make decisions and cope effectively with stress. \nThis level of emotional acuity can lead to positive outcomes with the person being able to provide greater passion and determination above others."
+	}, {
+		"id": 3,
+		"fullMsg": "Having a balanced score on Neuroticism profile has a number of potential meanings. \nWhile a person might experience unpleasant emotions more often than most people they can also manage to keep control of their emotions. \nEither with the help of others or by using calming methods to remove anxiety, they are able to recognise their mood which can allow them to understand the source of their negative emotions."
+	}]
+}

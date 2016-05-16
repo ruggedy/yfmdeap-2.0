@@ -1,0 +1,353 @@
+[
+
+	{
+		"id": 1,
+		"question": "Have a rich vocabulary",
+		"group": "O",
+		"symbol": "+"
+	},
+
+	{
+		"id": 2,
+		"question": "Am always prepared",
+		"group": "C",
+		"symbol": "+"
+	},
+
+	{
+		"id": 3,
+		"question": "Am the life of the party",
+		"group": "E",
+		"symbol": "+"
+	},
+
+	{
+		"id": 4,
+		"question": "Feel little concern for others",
+		"group": "A",
+		"symbol": "-"
+	},
+
+	{
+		"id": 5,
+		"question": "Get stressed out easily",
+		"group": "N",
+		"symbol": "-"
+	},
+
+	{
+		"id": 6,
+		"question": "Have difficulty understanding abstract ideas",
+		"group": "O",
+		"symbol": "-"
+	},
+
+	{
+		"id": 7,
+		"question": "Leave my belongings around",
+		"group": "C",
+		"symbol": "-"
+	},
+
+	{
+		"id": 8,
+		"question": "Don't talk a lot",
+		"group": "E",
+		"symbol": "-"
+	},
+
+	{
+		"id": 9,
+		"question": "Am interested in people",
+		"group": "A",
+		"symbol": "+"
+	},
+
+	{
+		"id": 10,
+		"question": "Am relaxed most of the time",
+		"group": "N",
+		"symbol": "+"
+	},
+
+	{
+		"id": 11,
+		"question": "Have a vivid imagination",
+		"group": "O",
+		"symbol": "+"
+	},
+
+	{
+		"id": 12,
+		"question": "Pay attention to details",
+		"group": "C",
+		"symbol": "+"
+	},
+
+	{
+		"id": 13,
+		"question": "Feel comfortable around people",
+		"group": "E",
+		"symbol": "+"
+	},
+
+	{
+		"id": 14,
+		"question": "Insult people",
+		"group": "A",
+		"symbol": "-"
+	},
+
+	{
+		"id": 15,
+		"question": "Worry about things",
+		"group": "N",
+		"symbol": "-"
+	},
+
+	{
+		"id": 16,
+		"question": "Am not interested in abstract ideas",
+		"group": "O",
+		"symbol": "-"
+	},
+
+	{
+		"id": 17,
+		"question": "Make a mess of things",
+		"group": "C",
+		"symbol": "-"
+	},
+
+	{
+		"id": 18,
+		"question": "Keep in the background",
+		"group": "E",
+		"symbol": "-"
+	},
+
+	{
+		"id": 19,
+		"question": "Sympathize with others' feelings",
+		"group": "A",
+		"symbol": "+"
+	},
+
+	{
+		"id": 20,
+		"question": "Seldom feel blue",
+		"group": "N",
+		"symbol": "+"
+	},
+
+	{
+		"id": 21,
+		"question": "Have excellent ideas",
+		"group": "O",
+		"symbol": "+"
+	},
+
+	{
+		"id": 22,
+		"question": "Get chores done right away",
+		"group": "C",
+		"symbol": "+"
+	},
+
+	{
+		"id": 23,
+		"question": "Start conversations",
+		"group": "E",
+		"symbol": "+"
+	},
+
+	{
+		"id": 24,
+		"question": "Am not interested in other people's problems",
+		"group": "A",
+		"symbol": "-"
+	},
+
+	{
+		"id": 25,
+		"question": "Am easily disturbed",
+		"group": "N",
+		"symbol": "-"
+	},
+
+	{
+		"id": 26,
+		"question": "Do not have a good imagination",
+		"group": "O",
+		"symbol": "-"
+	},
+
+	{
+		"id": 27,
+		"question": "Often forget to put things back in their proper place",
+		"group": "C",
+		"symbol": "-"
+	},
+
+	{
+		"id": 28,
+		"question": "Have little to say",
+		"group": "E",
+		"symbol": "-"
+	},
+
+	{
+		"id": 29,
+		"question": "Have a soft heart",
+		"group": "A",
+		"symbol": "+"
+	},
+
+	{
+		"id": 30,
+		"question": "Get upset easily",
+		"group": "N",
+		"symbol": "-"
+	},
+
+	{
+		"id": 31,
+		"question": "Use difficult words",
+		"group": "O",
+		"symbol": "+"
+	},
+
+	{
+		"id": 32,
+		"question": "Like order",
+		"group": "C",
+		"symbol": "+"
+	},
+
+	{
+		"id": 33,
+		"question": "Talk to a lot of different people at parties",
+		"group": "E",
+		"symbol": "+"
+	},
+
+	{
+		"id": 34,
+		"question": "Am not really interested in others",
+		"group": "A",
+		"symbol": "-"
+	},
+
+	{
+		"id": 35,
+		"question": "Change my mood a lot",
+		"group": "N",
+		"symbol": "-"
+	},
+
+	{
+		"id": 36,
+		"question": "Am quick to understand things",
+		"group": "O",
+		"symbol": "+"
+	},
+
+	{
+		"id": 37,
+		"question": "Shirk my duties",
+		"group": "C",
+		"symbol": "-"
+	},
+
+	{
+		"id": 38,
+		"question": "Don't like to draw attention to myself",
+		"group": "E",
+		"symbol": "-"
+	},
+
+	{
+		"id": 39,
+		"question": "Take time out for others",
+		"group": "A",
+		"symbol": "+"
+	},
+
+	{
+		"id": 40,
+		"question": "Have frequent mood swings",
+		"group": "N",
+		"symbol": "-"
+	},
+
+	{
+		"id": 41,
+		"question": "Am full of ideas",
+		"group": "O",
+		"symbol": "+"
+	},
+
+	{
+		"id": 42,
+		"question": "Follow a schedule",
+		"group": "C",
+		"symbol": "+"
+	},
+
+	{
+		"id": 43,
+		"question": "Don't mind being the center of attention",
+		"group": "E",
+		"symbol": "+"
+	},
+
+	{
+		"id": 44,
+		"question": "Feel others' emotions",
+		"group": "A",
+		"symbol": "+"
+	},
+
+	{
+		"id": 45,
+		"question": "Get irritated easily",
+		"group": "N",
+		"symbol": "-"
+	},
+
+	{
+		"id": 46,
+		"question": "Spend time reflecting on things",
+		"group": "O",
+		"symbol": "+"
+	},
+
+	{
+		"id": 47,
+		"question": "Am exacting in my work",
+		"group": "C",
+		"symbol": "+"
+	},
+
+	{
+		"id": 48,
+		"question": "Am quiet around strangers",
+		"group": "E",
+		"symbol": "-"
+	},
+
+	{
+		"id": 49,
+		"question": "Make people feel at ease",
+		"group": "A",
+		"symbol": "+"
+	},
+
+	{
+		"id": 50,
+		"question": "Often feel blue",
+		"group": "N",
+		"symbol": "-"
+	}
+
+]
