@@ -24,7 +24,7 @@ angular.module('bigFive').controller('QuestionCtrl', ['dataApi','$scope','CacheF
       setTimeout(function() {
         $scope.question = quest.question;
         $scope.swap = 'slideInRight'
-      }, 50);
+      }, 20);
       $scope.percentage = Math.round($scope.counter/50*100);
     });
   };
@@ -137,7 +137,7 @@ setTimeout(function() {
   }else if (value == "5") {
     $scope.class5 = 'checked';
   }
-}, 50)
+}, 20)
 
 
 
