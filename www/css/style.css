@@ -64,7 +64,7 @@
     z-index: 5
     font-family: "custom-font", sans-serif;
 }
-.home, .home.button.button-icon {
+.home, .home.button.button-icon, .home.bar, .home.button.back-button {
   color: white;
   font-family: "custom-font", sans-serif;
 }
@@ -146,14 +146,13 @@
 }
 
 .checked {
-  transition: .6s;
+  transition: .3s;
   background-color: #00237a !important;
 }
 .notChecked {
-  transition: .6s
+  transition: .1s
   background-color: #ECF0F1 !important;
 }
-
 .custom-avatar.item{
   color: #00237a;
   font-family: "custom-font", sans-serif;
@@ -213,12 +212,12 @@
   overflow: hidden;
   padding-left: 5em;
   padding-right: 5em;
-  top: 2em;
+  top: 1em;
 }
 .result-message-css {
   position: relative;
-  top: 13em;
-  font-size: 1.5em;
+  top: 14em;
+  font-size: 1.3em;
   font-weight: bolder;
   font-family: "custom-font", sans-serif;
   color: #00237a;
@@ -230,8 +229,8 @@
   text-align: center !important;
   color: white;
 }
-.home-margin-top{
-  margin-top: 20em;
+.home-margin-top, .home-margin-top.button.button-full{
+  margin-top: 5em;
 }
 .button-font{
   font-weight: bold;
@@ -242,7 +241,7 @@
   max-height: 1.5em;
   padding: 0 .2em;
 }
-.overflow-hidden, .overflow-scroll {
+.overflow-hidden {
   overflow: hidden;
 }
 
@@ -255,29 +254,70 @@
   overflow:hidden;
   background-color: #ECF0F1;
 }
-.container.cell{
-  left: -1em;
-  text-align: center;
+
+.custom-result.ng-enter{
+  -webkit-animation: fadeInLeft 1s;
+    animation: fadeInLeft 1s;
 }
-.swap-animation.ng-enter, .swap-animation.ng-leave {
-  transition:4s linear all;
-}
-.swap-animation.ng-enter {
-  left: 100%;
-}
-.swap-animation.ng-enter-active {
-  left: 0;
-}
-.swap-animation.ng-leave {
-  left: 0;
-}
-.swap-animation.ng-leave-active {
-  left: -200%;
+.custom-result.ng-enter-stagger {
+  -webkit-animation-delay:200ms;
+  animation-delay:200ms;
+  -webkit-animation-duration:0;
+  animation-duration:0;
 }
 
-.slideOutLeft{
-  animation-duration: 1;
+.ngHiding.ng-hide-add{
+  -webkit-transition: all linear 0s;
+  opacity: 1;
 }
-.slideInRight{
-  
+.ngHiding.ng-hide-add-active{
+  opacity: 0;
+}
+.ngHiding.ng-hide-remove{
+  -webkit-transition: all linear 0s;
+  opacity: 0;
+}
+.ngHiding.ng-hide-remove-active{
+  opacity: 1;
+}
+
+.position{
+  margin-top: .5em;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #00237a;
+  font-family: "custom-font", sans-serif;
+}
+.position.right-side{
+  text-align: right;
+}
+.position.left-side{
+  text-align: left;
+}
+.go-to-result, .go-to-result.button-clear {
+  margin-top: .5em;
+  color: #F4B350;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.discover {
+  font-size: 3em;
+  font-weight: bold;
+  font-family: "custom-font", sans-serif;
+  color:  #00237a;
+}
+.discover.top-margin{
+  margin-top: 1em;
+}
+.fadeInLeft{
+  animation-duration: 1s
+}
+.fadeInRight{
+  animation-duration: 1s;
+  animation-delay: 1s;
+}
+.discover.right {
+  text-align: right;
+  color: #F4B350;
 }

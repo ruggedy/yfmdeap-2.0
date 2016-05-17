@@ -1,7 +1,8 @@
 'use strict';
 
 angular.module('bigFive').controller('HomePageCtrl', ['dataApi','$scope','CacheFactory','$state', '$ionicPopup', function(dataApi, $scope, CacheFactory, $state, $ionicPopup) {
-
+    $scope.reveal = true;
+    $scope.discover = "Discover";
     self.resultCache = CacheFactory.get('answerCache');
 
     var initRes = self.resultCache.get('Answer');
@@ -10,9 +11,11 @@ angular.module('bigFive').controller('HomePageCtrl', ['dataApi','$scope','CacheF
       if (initRes === undefined) {
         $scope.msg = "Start Test";
         $scope.reveal = true;
+        $scope.discover = "Discover";
       }else {
         $scope.msg = "Retake Test";
         $scope.reveal = false;
+        $scope.discover = "Re-discover";
       }
 
     $scope.resData = function() {

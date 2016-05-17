@@ -32,12 +32,20 @@
               <label class="button radio-label radio-large" ng-class="class5" ng-click="next(choice)" ><input type="radio" ng-model="choice" ng-value="5"></label>
             </div>
           </div>
+          <div class="no-bootstrap row">
+            <div class="col position left-side">
+              <p> Strongly Disagree</p>
+            </div>
+            <div class="col position right-side">
+              <p> Strongly Agree</p>
+            </div>
+          </div>
   </ion-content>
   <ion-footer-bar class="footer-bar-custom custom-color-color">
     <div class="buttons">
-      <button class="button button-clear button-icon icon ion-chevron-left footer-bar-item item-left" ng-show="showPrev" ng-click="previousButton()"></button>
+      <button class="home button button-clear button-icon icon ion-chevron-left footer-bar-item item-left" ng-show="showPrev" ng-click="previousButton()"></button>
       <button class="custom button button-clear footer-bar-item item-center" ng-show="showSub" ng-click="submitButton()">Submit</button>
-      <button class="button button-clear button-right button-icon icon ion-chevron-right footer-bar-item item-right" ng-show="showNext" ng-click="nextButton()"></button>
+      <button class="home button button-clear button-right button-icon icon ion-chevron-right footer-bar-item item-right" ng-show="showNext" ng-click="nextButton()"></button>
     </div>
   </ion-footer-bar>
 </ion-view>

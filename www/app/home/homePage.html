@@ -1,14 +1,25 @@
 <ion-view ng-controller="HomePageCtrl">
   <ion-nav-title class="title custom-nav-title">Big Five</ion-nav-title>
   <ion-content class="has-header">
-    <div class="no-bootstrap row home-margin-top">
+    <div class="no-bootstrap row ">
+      <div class="col animated fadeInLeft discover top-margin">
+        <span>{{discover}}</span>
+      </div>
+    </div>
+    <div class="no-bootstrap row " >
+      <div class="col animated fadeInRight discover right">
+        Yourself...
+      </div>
+    </div>
+
+    <div class="no-bootstrap row ">
       <div class="col-offset-33 col-33">
-        <a class="button button-full button-positive button-font" ng-click="resData()">{{msg}}</a>
+        <a class="home-margin-top button button-full button-positive button-font" ng-click="resData()">{{msg}}</a>
       </div>
     </div>
     <div class="no-bootstrap row">
-      <div class="col-offset-33 col-33">
-        <a class="button button-full button-clear button-font" ui-sref="result.results" ng-hide="reveal">Go to result</a>
+      <div class="col-offset-25 col-50 ">
+        <a class="go-to-result ngHiding button button-full button-clear button-font animated infinite pulse" ui-sref="result.results" ng-hide="reveal">Go to result</a>
       </div>
     </div>
   </ion-content>
